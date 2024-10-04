@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.internal.util.blaze;
+package com.android.internal.util.moto;
 
 import static android.os.UserHandle.USER_SYSTEM;
 

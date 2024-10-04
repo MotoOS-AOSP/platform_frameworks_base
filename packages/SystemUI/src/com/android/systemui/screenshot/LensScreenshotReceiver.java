@@ -29,7 +29,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 
-import com.android.internal.util.blaze.BlazeUtils;
+import com.android.internal.util.moto.MotoUtils;
 
 import com.android.systemui.R;
 import com.android.systemui.dagger.qualifiers.Background;
@@ -56,7 +56,7 @@ public class LensScreenshotReceiver extends BroadcastReceiver {
     }
 
     public static boolean isGSAEnabled(Context context) {
-        return BlazeUtils.isPackageInstalled(context, GSA_PACKAGE, false /* ignoreState */);
+        return MotoUtils.isPackageInstalled(context, GSA_PACKAGE, false /* ignoreState */);
     }
 
     @Override

@@ -225,7 +225,7 @@ import com.android.internal.policy.LogDecelerateInterpolator;
 import com.android.internal.policy.PhoneWindow;
 import com.android.internal.policy.TransitionAnimation;
 import com.android.internal.statusbar.IStatusBarService;
-import com.android.internal.util.blaze.BlazeUtils;
+import com.android.internal.util.moto.MotoUtils;
 import com.android.internal.util.ScreenshotHelper;
 import com.android.internal.widget.LockPatternUtils;
 import com.android.server.AccessibilityManagerInternal;
@@ -6822,7 +6822,7 @@ public class PhoneWindowManager implements WindowManagerPolicy {
     public void sendCustomAction(Intent intent) {
         String action = intent.getAction();
         if (action != null) {
-            if (BlazeUtils.INTENT_SCREENSHOT.equals(action)) {
+            if (MotoUtils.INTENT_SCREENSHOT.equals(action)) {
                 interceptScreenshotChord(SCREENSHOT_KEY_OTHER, 0);
             }
         }

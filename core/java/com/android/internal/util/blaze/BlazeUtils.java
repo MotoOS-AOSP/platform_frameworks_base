@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.android.internal.util.blaze;
+package com.android.internal.util.moto;
 
 import static android.content.Context.NOTIFICATION_SERVICE;
 import static android.content.Context.VIBRATOR_SERVICE;
@@ -57,7 +57,7 @@ import com.android.internal.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BlazeUtils {
+public class MotoUtils {
 
     /**
      * @hide
