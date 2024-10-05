@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.android.internal.util.moto;
+package com.android.internal.util.tweak;
 
 import static android.content.Context.NOTIFICATION_SERVICE;
 import static android.content.Context.VIBRATOR_SERVICE;

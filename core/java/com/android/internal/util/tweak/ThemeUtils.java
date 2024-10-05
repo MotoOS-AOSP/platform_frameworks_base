@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.internal.util.moto;
+package com.android.internal.util.tweak;
 
 import static android.os.UserHandle.USER_SYSTEM;
 
