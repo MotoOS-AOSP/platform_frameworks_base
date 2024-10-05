@@ -2254,34 +2254,29 @@ public class LocationManager {
     public void clearTestProviderStatus(@NonNull String provider) {}
 
     /**
-     * Sets a proximity alert for the location given by the position (latitude, longitude) and the
-     * given radius.
-     *
-     * <p>When the device detects that it has entered or exited the area surrounding the location,
-     * the given PendingIntent will be fired.
-     *
-     * <p>The fired intent will have a boolean extra added with key {@link #KEY_PROXIMITY_ENTERING}.
-     * If the value is true, the device is entering the proximity region; if false, it is exiting.
-     *
-     * <p>Due to the approximate nature of position estimation, if the device passes through the
-     * given area briefly, it is possible that no Intent will be fired. Similarly, an intent could
-     * be fired if the device passes very close to the given area but does not actually enter it.
-     *
-     * <p>Before API version 17, this method could be used with
-     * {@link android.Manifest.permission#ACCESS_FINE_LOCATION} or
-     * {@link android.Manifest.permission#ACCESS_COARSE_LOCATION}. From API version 17 and onwards,
-     * this method requires {@link android.Manifest.permission#ACCESS_FINE_LOCATION} permission.
-     *
-     * @param latitude      the latitude of the central point of the alert region
-     * @param longitude     the longitude of the central point of the alert region
-     * @param radius        the radius of the central point of the alert region in meters
-     * @param expiration    expiration realtime for this proximity alert in milliseconds, or -1 to
-     *                      indicate no expiration
-     * @param pendingIntent a {@link PendingIntent} that will sent when entry to or exit from the
-     *                      alert region is detected
-     * @throws SecurityException if {@link android.Manifest.permission#ACCESS_FINE_LOCATION}
-     *                           permission is not present
-     */
+    * Sets a proximity alert for the location given by the position (latitude, longitude) and the
+    * given radius.
+    *
+    * <p>When the device detects that it has entered or exited the area surrounding the location,
+    * the given PendingIntent will be fired.
+    *
+    * <p>The fired intent will have a boolean extra added with key {@link #KEY_PROXIMITY_ENTERING}.
+    * If the value is true, the device is entering the proximity region; if false, it is exiting.
+    *
+    * <p>Due to the approximate nature of position estimation, if the device passes through the
+    * given area briefly, it is possible that no Intent will be fired. Similarly, an intent could
+    * be fired if the device passes very close to the given area but does not actually enter it.
+    *
+    * @param latitude      the latitude of the central point of the alert region
+    * @param longitude     the longitude of the central point of the alert region
+    * @param radius        the radius of the central point of the alert region in meters
+    * @param expiration    expiration realtime for this proximity alert in milliseconds, or -1 to
+    *                      indicate no expiration
+    * @param pendingIntent a {@link PendingIntent} that will sent when entry to or exit from the
+    *                      alert region is detected
+    * @throws SecurityException if {@link android.Manifest.permission#ACCESS_FINE_LOCATION}
+    *                           permission is not present
+    */
     @RequiresPermission(anyOf = {ACCESS_COARSE_LOCATION, ACCESS_FINE_LOCATION})
     public void addProximityAlert(double latitude, double longitude, float radius, long expiration,
             @NonNull PendingIntent pendingIntent) {
