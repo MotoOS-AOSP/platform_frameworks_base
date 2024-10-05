@@ -16,7 +16,8 @@
 
 syntax = "proto2";
 
-import "frameworks/base/core/proto/android/graphics/rect.proto";
+/* import "frameworks/base/core/proto/android/graphics/rect.proto"; */
+
 
 package android.inputmethodservice;
 
