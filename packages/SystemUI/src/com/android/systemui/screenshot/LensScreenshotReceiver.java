@@ -29,7 +29,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 
-import com.android.internal.util.moto.MotoUtils;
+import com.android.internal.util.tweak.MotoUtils;
 
 import com.android.systemui.R;
 import com.android.systemui.dagger.qualifiers.Background;
