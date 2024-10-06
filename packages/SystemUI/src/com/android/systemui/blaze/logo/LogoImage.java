@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.android.systemui.moto.logo;
+package com.android.systemui.blaze.logo;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -163,60 +163,57 @@ public abstract class LogoImage extends ImageView implements DarkReceiver {
                 drawable = mContext.getResources().getDrawable(R.drawable.ic_emoticon_devil);
                 break;
             case 13:
-                drawable = mContext.getResources().getDrawable(R.drawable.ic_blaze);
-                break;
-            case 14:
                 drawable = mContext.getResources().getDrawable(R.drawable.ic_heart);
                 break;
-            case 15:
+            case 14:
                 drawable = mContext.getResources().getDrawable(R.drawable.ic_nike);
                 break;
-            case 16:
+            case 15:
                 drawable = mContext.getResources().getDrawable(R.drawable.ic_pac_man);
                 break;
-            case 17:
+            case 16:
                 drawable = mContext.getResources().getDrawable(R.drawable.ic_puma);
                 break;
-            case 18:
+            case 17:
                 drawable = mContext.getResources().getDrawable(R.drawable.ic_rog);
                 break;
-            case 19:
+            case 18:
                 drawable = mContext.getResources().getDrawable(R.drawable.ic_spiderman);
                 break;
-            case 20:
+            case 19:
                 drawable = mContext.getResources().getDrawable(R.drawable.ic_superman);
                 break;
-            case 21:
+            case 20:
                 drawable = mContext.getResources().getDrawable(R.drawable.ic_windows);
                 break;
-            case 22:
+            case 21:
                 drawable = mContext.getResources().getDrawable(R.drawable.ic_xbox);
                 break;
-            case 23:
+            case 22:
                 drawable = mContext.getResources().getDrawable(R.drawable.ic_ghost);
                 break;
-            case 24:
+            case 23:
                 drawable = mContext.getResources().getDrawable(R.drawable.ic_ninja);
                 break;
-            case 25:
+            case 24:
                 drawable = mContext.getResources().getDrawable(R.drawable.ic_robot);
                 break;
-            case 26:
+            case 25:
                 drawable = mContext.getResources().getDrawable(R.drawable.ic_ironman);
                 break;
-            case 27:
+            case 26:
                 drawable = mContext.getResources().getDrawable(R.drawable.ic_captain_america);
                 break;
-            case 28:
+            case 27:
                 drawable = mContext.getResources().getDrawable(R.drawable.ic_flash);
                 break;
-            case 29:
+            case 28:
                 drawable = mContext.getResources().getDrawable(R.drawable.ic_tux_logo);
                 break;
-            case 30:
+            case 29:
                 drawable = mContext.getResources().getDrawable(R.drawable.ic_ubuntu_logo);
                 break;
-            case 31:
+            case 30:
                 drawable = mContext.getResources().getDrawable(R.drawable.ic_mint_logo);
                 break;
         }

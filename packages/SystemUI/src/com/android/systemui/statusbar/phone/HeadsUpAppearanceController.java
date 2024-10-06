@@ -27,7 +27,7 @@ import androidx.annotation.NonNull;
 import com.android.internal.annotations.VisibleForTesting;
 import com.android.internal.widget.ViewClippingUtil;
 import com.android.systemui.flags.FeatureFlagsClassic;
-import com.android.systemui.moto.logo.LogoImage;
+import com.android.systemui.blaze.logo.LogoImage;
 import com.android.systemui.dagger.qualifiers.RootView;
 import com.android.systemui.plugins.DarkIconDispatcher;
 import com.android.systemui.plugins.statusbar.StatusBarStateController;

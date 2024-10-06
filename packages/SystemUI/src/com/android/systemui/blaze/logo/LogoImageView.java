@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.android.systemui.moto.logo;
+package com.android.systemui.blaze.logo;
 
 import android.content.Context;
 import android.util.AttributeSet;
