@@ -46,7 +46,6 @@ java_library {
         "wm-flicker-common-app-helpers",
         "wm-flicker-common-assertions",
         "launcher-helper-lib",
-        "launcher-aosp-tapl",
         "com_android_wm_shell_flags_lib",
     ],
 }
@@ -71,7 +70,6 @@ java_defaults {
         "wm-flicker-common-app-helpers",
         "wm-flicker-common-assertions",
         "launcher-helper-lib",
-        "launcher-aosp-tapl",
     ],
     data: [
         ":FlickerTestApp",
